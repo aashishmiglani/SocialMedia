@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+nav {
+    background-color: rgb(46, 23, 218);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 13px 0px;
+}
+
+.searchbox {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.appname {
+    display: flex;
+    align-items: center;
+}
+
+.homepage,
+.Timeline {
+    cursor: pointer;
+}
+
+.searchIcon {
+
+    position: relative;
+    left: 334px;
+    /* color: black; */
+    background-color: black;
+}
